@@ -17,7 +17,7 @@ function renderCartItem(item) {
     // 1. Создайте переменную itemCountText, равную пустой строке
     let itemCountText = "";
     itemCountText = itemCountText + product.count;
-    itemCountText = itemCountText + " х ";
+    itemCountText = itemCountText + " × ";
     itemCountText = itemCountText + product.price;
     itemCountText = itemCountText + " ₽ = ";
     let sum = product.count * product.price;
